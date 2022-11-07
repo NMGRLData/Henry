@@ -1,0 +1,66 @@
+{
+    "aliquot": 2, 
+    "analysis_type": "unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "B:4 biotite, 2.87 mg", 
+    "commit": "9d5622eba1fc6380ef781ab93fd20d0f7b372588", 
+    "conditionals": [], 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "felix_diode.py", 
+    "identifier": "63501", 
+    "increment": 4, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-275 B:4", 
+    "irradiation_level": "", 
+    "irradiation_position": 0, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar37": {
+            "detector": "L1"
+        }, 
+        "Ar38": {
+            "detector": "AX"
+        }, 
+        "Ar39": {
+            "detector": "H1"
+        }, 
+        "Ar40": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Felix", 
+    "material": "", 
+    "measurement": "felix_analysis120_60.py", 
+    "project": "", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Henry", 
+    "sample": "H14-70", 
+    "spec_sha": "f5bf3da4c0acf4a6eb7e30b93900b20ca090f3ba", 
+    "timestamp": "2016-04-14T13:26:47.655994", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "d72a8042-9f3e-4fc1-8cdd-813b4fc45e88"
+}
