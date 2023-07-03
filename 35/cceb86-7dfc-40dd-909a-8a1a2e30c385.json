@@ -1,0 +1,336 @@
+{
+    "acquisition_software": "pychron 20.1.1",
+    "aliquot": 105,
+    "analysis_type": "unknown",
+    "analyst_name": "MHeizler",
+    "arar_mapping": {
+        "Ar36": "Ar36",
+        "Ar37": "Ar37",
+        "Ar38": "Ar38",
+        "Ar39": "Ar39",
+        "Ar40": "Ar40"
+    },
+    "collection_version": "2.0:2.1",
+    "comment": "N:2 fine DS",
+    "conditionals": [
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": -2199342700742269968,
+            "level": null,
+            "location": "scripts/conditionals/C_Henry_Kirker.yaml",
+            "ntrips": 1,
+            "start_count": 5,
+            "teststr": "Ar40>4950.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": 2598459378000487880,
+            "level": null,
+            "location": "scripts/conditionals/C_Henry_Kirker.yaml",
+            "ntrips": 1,
+            "start_count": 30,
+            "teststr": "Ar39.bs_corrected<0.5"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": -5992632899422262751,
+            "level": null,
+            "location": "scripts/conditionals/C_Henry_Kirker.yaml",
+            "ntrips": 1,
+            "start_count": 120,
+            "teststr": "Ar39.bs_corrected>20.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": -1775269692380702486,
+            "level": null,
+            "location": "scripts/conditionals/C_Henry_Kirker.yaml",
+            "ntrips": 1,
+            "start_count": 30,
+            "teststr": "Ar37.bs_corrected>3.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": -5056211815858710482,
+            "level": null,
+            "location": "scripts/conditionals/C_Henry_Kirker.yaml",
+            "ntrips": 1,
+            "start_count": 90,
+            "teststr": "age>50.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 1,
+            "hash_id": 4876231334319047880,
+            "level": null,
+            "location": "scripts/conditionals/C_Henry_Kirker.yaml",
+            "ntrips": 1,
+            "start_count": 45,
+            "teststr": "age<30.0"
+        },
+        {
+            "analysis_types": [
+                "blank_air",
+                "unknown",
+                "air",
+                "cocktail",
+                "ic",
+                "blank_unknown",
+                "blank_cocktail",
+                "blank"
+            ],
+            "frequency": 5,
+            "hash_id": 1479701906781780315,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "H1.bs<-15.0"
+        },
+        {
+            "analysis_types": [
+                "cocktail"
+            ],
+            "frequency": 5,
+            "hash_id": 5399143511473774909,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 20,
+            "teststr": "Ar40<500.0"
+        },
+        {
+            "analysis_types": [
+                "air"
+            ],
+            "frequency": 5,
+            "hash_id": 3506572996079703318,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 20,
+            "teststr": "Ar40<20.0"
+        },
+        {
+            "analysis_types": [
+                "air",
+                "unknown",
+                "cocktail",
+                "ic",
+                "blank_unknown",
+                "blank_air",
+                "blank_cocktail",
+                "blank"
+            ],
+            "frequency": 10,
+            "hash_id": 8542154076928203972,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 0,
+            "teststr": "Ar36.bs_corrected>10.0"
+        },
+        {
+            "analysis_types": [
+                "air"
+            ],
+            "frequency": 5,
+            "hash_id": 6008989981648412484,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 1,
+            "start_count": 50,
+            "teststr": "between(Ar40/Ar36,285.0,305.0)"
+        },
+        {
+            "analysis_types": [
+                "ic"
+            ],
+            "frequency": 5,
+            "hash_id": -992628142888574120,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 75,
+            "teststr": "Ar36.bs_corrected<0.01"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 5,
+            "hash_id": 6050409487913782863,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 75,
+            "teststr": "Ar36.bs_corrected<0.0"
+        },
+        {
+            "analysis_types": [],
+            "frequency": 3,
+            "hash_id": 8496690037190409320,
+            "level": 10,
+            "location": "setupfiles/spectrometer/default_conditionals.yaml",
+            "ntrips": 3,
+            "start_count": 0,
+            "teststr": "Ar40.bs_corrected>49500.0"
+        }
+    ],
+    "data_collection_commit": "883a3d4726840b8194d54c3fd08b6a4a43cef65b",
+    "data_reduction_software": "pychron 20.1.1",
+    "detectors": {
+        "AX": {
+            "deflection": 190.0,
+            "gain": 0.097645
+        },
+        "CDD": {
+            "deflection": 50.0,
+            "gain": 0.0
+        },
+        "H1": {
+            "deflection": 0.0,
+            "gain": 0.1
+        },
+        "H2": {
+            "deflection": 0.0,
+            "gain": 0.01
+        },
+        "L1": {
+            "deflection": 400.0,
+            "gain": 0.01073
+        },
+        "L2": {
+            "deflection": 825.0,
+            "gain": 0.00983
+        }
+    },
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Hum.",
+                "pub_date": "2023-07-02T20:44:56",
+                "title": "iServer Hum.",
+                "value": 38.2
+            }
+        ],
+        "lab_pneumatics": [
+            {
+                "device": "MicroBoneGaugeController",
+                "name": "JanDecabinPressure",
+                "pub_date": "2023-07-02T20:03:10",
+                "title": "Jan Decabin",
+                "value": 6.7
+            }
+        ],
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger",
+                "name": "ColdFinger Temp.",
+                "pub_date": "2023-07-02T22:57:02",
+                "title": "Cold Finger",
+                "value": 4.0
+            },
+            {
+                "device": "EnvironmentalMonitor",
+                "name": "Lab Temp.",
+                "pub_date": "2023-07-02T22:41:33",
+                "title": "iServer Temp.",
+                "value": 73.2
+            },
+            {
+                "device": "Chiller",
+                "name": "Coolant Temp.",
+                "pub_date": "2023-07-02T22:43:28",
+                "title": "Coolant",
+                "value": 16.0
+            }
+        ]
+    },
+    "experiment_queue_name": "CurrentExperiment",
+    "experiment_type": "Ar/Ar",
+    "extraction": "jan_co2.py",
+    "grainsize": "80-120",
+    "hops": "",
+    "identifier": "71156",
+    "increment": null,
+    "instrument_name": "",
+    "intensity_scalar": 0.0,
+    "irradiation": "NM-334",
+    "irradiation_level": "N",
+    "irradiation_position": 2,
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD",
+            "name": "Ar36",
+            "serial_id": "cdd",
+            "units": "fA"
+        },
+        "Ar37": {
+            "detector": "L2",
+            "name": "Ar37",
+            "serial_id": "thermo13",
+            "units": "fA"
+        },
+        "Ar38": {
+            "detector": "L1",
+            "name": "Ar38",
+            "serial_id": "b21",
+            "units": "fA"
+        },
+        "Ar39": {
+            "detector": "AX",
+            "name": "Ar39",
+            "serial_id": "thermo13",
+            "units": "fA"
+        },
+        "Ar40": {
+            "detector": "H1",
+            "name": "Ar40",
+            "serial_id": "thermo13",
+            "units": "fA"
+        },
+        "Ar41": {
+            "detector": "H2",
+            "name": "Ar41",
+            "serial_id": "b42",
+            "units": "fA"
+        }
+    },
+    "laboratory": "",
+    "latitude": null,
+    "lithology": "Sandy ash",
+    "lithology_class": null,
+    "lithology_group": null,
+    "lithology_type": null,
+    "longitude": null,
+    "mass_spectrometer": "Jan",
+    "material": "DetritalSanidine",
+    "measurement": "jan_unknown280_45_no_center.py",
+    "meta_commit": "d50e246854f6eb9c042959d5bd6df04fcf631eda",
+    "note": null,
+    "post_equilibration": "jan_pump_extraction_line.py",
+    "post_measurement": "jan_pump_ms.py",
+    "principal_investigator": "Henry, C",
+    "project": "Henry",
+    "queue_conditionals_name": "---",
+    "repository_identifier": "Henry",
+    "rlocation": "",
+    "sample": "040731-1A",
+    "source": {
+        "emission": 521.029,
+        "trap": 198.483
+    },
+    "spec_sha": "da2cf381e9a89c3490a7287242fe21057fa3a705",
+    "time_zero_timestamp": "2023-07-02T22:52:06.784232",
+    "timestamp": "2023-07-02T22:58:58.609143",
+    "tripped_conditional": null,
+    "unit": "",
+    "username": "MHeizler",
+    "uuid": "35cceb86-7dfc-40dd-909a-8a1a2e30c385",
+    "whiff_result": null
+}
